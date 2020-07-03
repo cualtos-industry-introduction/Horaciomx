@@ -15,12 +15,12 @@ usuario['correo'] = "abc@correo.com"
 #for registro 
 
 datos ={}
-dato['nombre'] = input("ingresa en uno nombre:")
-dato['direccion'] = input("ingresa la direccion:")
-dato['correo'] = input("ingresa en correo:")
+datos['nombre'] = input("ingresa en uno nombre:")
+datos['direccion'] = input("ingresa la direccion:")
+datos['correo'] = input("ingresa en correo:")
 
 print(lista[0]['nombre'])
-for llave, valor in usuarios.items():
+for llave, valor in usuario.items():
     print(llave, valor)
 
-lista.append(dato)
+lista.append(datos)
